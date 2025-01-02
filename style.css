@@ -1,0 +1,309 @@
+/* General Styles */
+body {
+    font-family: Arial, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+/* Navigation Bar */
+nav {
+    background: #007bff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem; /* Slightly larger base font size */
+}
+nav ul li {
+    margin: 0 15px;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+/* Hero Section */
+.hero {
+    background: url('image/front web2.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+.hero .logo {
+    position: absolute;
+    top: 20px; /* Adjust the distance from the top as needed */
+    left: 20px; /* Adjust the distance from the left as needed */
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+.hero .logo img {
+    display: block;
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Same value as width for a perfect circle */
+    border-radius: 100%; /* Makes the logo round */
+    object-fit: cover; /* Ensures the logo scales properly within the circle */
+    border: 2px solid white; /* Optional: Adds a border around the logo */
+    position: absolute;
+    top: 66px; /* Increase this value to push the logo further down */
+    left: 2px; /* Adjust as needed for horizontal positioning */
+    right: 70px; /* Adjust as needed for horizontal positioning */
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+.cta-btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+.cta-btn:hover {
+    background: #ff4b4b;
+
+}
+
+/* General styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-img {
+    max-width: unset; /* Remove the max-width rule for the logo */
+    width: 200px; /* Keep the desired size for the logo */
+    height: 200px; /* Ensure the height matches */
+    object-fit: cover; /* Keeps the logo's quality intact */
+    border-radius: 50%; /* Keeps it circular */
+    border: 2px solid white; /* Optional border for styling */
+}
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+.project-card {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+/* Color Enhancements */
+#projects, #company, #services {
+    background: linear-gradient(to bottom, #a0eb87, #46b448);
+    color: rgb(21, 3, 3);
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+#projects h2, #company h2, #services h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+#office, #contact {
+    background: linear-gradient(to bottom, #50342c, #345e3f);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+border: #46b448;
+font-size: 1.3rem; /* Slightly larger base font size */
+}
+#office h2, #contact h2 {
+    color: #ecf1ec;
+    font-size: 1.3rem; /* Slightly larger base font size */
+
+}
+/* Center the List with Proper Bullet Alignment */
+#services ul, #contact ul {
+    list-style-position: inside; /* Ensure bullets are closer to the text */
+    margin: 0 auto; /* Center the list horizontally */
+    text-align: center; /* Keep text aligned to the center */
+    display: inline-block; /* Allows the list to be treated as a block for centering */
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+#services li, #contact li {
+    line-height: 1.8; /* Adjust line spacing for readability */
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+/* colour titles  */
+#projects h2, #company h2, #services h2 {
+    font-family: Algerian, 'Times New Roman', Times, serif; /* Apply Algerian font */
+    color: blue; /* Set the color to blue */
+    font-size: 1.5rem; /* Slightly larger base font size */
+}
+
+
+/* Contact Section Styling */
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* Center the entire list horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    gap: 15px; /* Add spacing between list items */
+    text-align: center; /* Center text within items */
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+#contact li {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content within each list item */
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+#contact i {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #25D366; /* Green for WhatsApp */
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+#contact a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    font-size: 1.3rem; /* Slightly larger base font size */
+}
+
+/* Responsive Design */
+
+/* For tablets and medium-sized devices */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack navigation links vertically */
+        gap: 10px; /* Add spacing between links */
+        body {
+            font-size: 1rem; /* Adjust base font size for tablets */
+        }
+    }
+
+    .hero h1 {
+        font-size: 2.4em; /* Slightly reduce font size for the hero title */
+    }
+
+    .hero p {
+        font-size: 1.2em; /* Reduce paragraph font size */
+    }
+
+    .cta-btn {
+        padding: 8px 16px; /* Reduce button padding */
+        font-size: 1em;
+    }
+
+    .hero .logo img {
+        width: 150px; /* Adjust logo size */
+        height: 150px; /* Keep it round */
+        font-size: 1.1rem; /* Adjust contact details font size */
+    }
+
+    #contact ul {
+        align-items: center; /* Center align the contact details */
+        font-size: 1.1rem; /* Adjust contact details font size */
+    }
+}
+
+/* For phones and small devices */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        /* font-size: 14px; Smaller font for navigation links */
+        body {
+            font-size: 0.9rem; /* Adjust base font size for phones */
+        }
+    
+    }
+
+    .hero {
+        height: auto; /* Allow the hero section to adjust its height */
+        padding: 20px; /* Add padding for smaller devices */
+        font-size: 1em; /* Further reduce hero title size */
+    }
+
+    .hero h1 {
+        font-size: 2em; /* Further reduce font size */
+    }
+
+    .hero p {
+        font-size: 1.5em; /* Adjust paragraph size */
+    }
+
+    .cta-btn {
+        font-size: 1.1em; /* Make the button text smaller */
+        padding: 6px 12px; /* Adjust padding */
+    }
+
+    .hero .logo img {
+        width: 100px; /* Further reduce logo size */
+        height: 100px; /* Keep it proportional */
+    }
+
+    #projects img {
+        width: 100%; /* Make project images fit the screen */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    #contact li {
+        /* font-size: 16px; Adjust font size for contact details */
+        text-align: center; /* Center align text */
+        font-size: 1.3rem; /* Further reduce hero title size */
+    }
+}
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
