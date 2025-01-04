@@ -94,7 +94,36 @@ nav ul li a:hover {
     background: #ff4b4b;
 
 }
+/* Default styling for the Services section */
+#services {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.7rem; /* Slightly larger base font size */
+    line-height: 1.9; /* Adds better readability by increasing line spacing */
+}
 
+/* Section Title Styling */
+.section-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.0rem; /* Slightly larger for section titles */
+    font-weight: 400; /* Normal weight for elegance */
+    color: #003366; /* Dark blue, change if needed */
+    text-align: center; /* Center align for better visibility */
+    margin: 20px 0; /* Adds space above and below titles */
+}
+
+/* Specific font for Construction Section */
+.construction {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400; /* Normal weight */
+    font-size: 8.8rem; /* Matches the base font size */
+}
+
+/* Specific font for General Services Section */
+.general-services {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 9.9rem; /* Matches the base font size */
+    font-weight: 400; /* Normal weight */
+}
 /* General styles for images */
 img {
     max-width: 100%;
